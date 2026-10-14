@@ -1,0 +1,27 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+target/
+.gradle/
+
+# Local environment and secrets
+.env
+.env.*.local
+!.env.example
+!.env.*.example
+application-local.yml
+application-local.yaml
+
+# IDE and OS files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.iml
+.DS_Store
+
+# Test and coverage output
+coverage/
+.nyc_output/
+*.tsbuildinfo
